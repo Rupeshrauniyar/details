@@ -49,3 +49,67 @@ border: 2px solid white;
 background-color: goldenrod;
 margin-top: -5px;
 border: 2px solid white;
+}
+@media(min-width:768px){
+input{
+width: 700px;
+}
+button{
+margin-left:180px ;
+}
+#otp_inp{
+width: 700px;
+}
+}
+@media(min-width:1024px){
+input{
+width: 930px;
+}
+button{
+margin-left:180px ;
+width: 650px;
+}
+#otp_inp{
+width: 930px;
+}
+}
+@media(min-width:1140px){
+input{
+width: 1050px;
+height: 70px;
+font-size: 30px;
+}
+button{
+margin-left:180px ;
+width: 850px;
+height: 100px;
+font-size: 30px;
+}
+#otp_inp{
+width: 1050px;
+height: 70px;
+font-size: 30px;
+}
+}
+@media(min-width:2560px){
+form{
+margin-top:25%;
+}
+input{
+width: 2460px;
+height: 100px;
+font-size: 40px;
+}
+button{
+margin-left:400px ;
+width: 1500px;
+height: 100px;
+font-size: 50px;
+}
+#otp_inp{
+width: 2460px;
+font-size: 40px;
+font-weight: 500;
+height: 100px;
+}
+}
