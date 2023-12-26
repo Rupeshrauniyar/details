@@ -7,7 +7,7 @@ let emailbody = `<h2>Your OTP Is</h2>${otp_val}`;
 
 
 Email.send({ 
-SecureToken : "77955f25-ea20-45ae-a660-b940ad7e0659", 
+SecureToken : "b4ece08c-85af-42b9-8e17-daa499ac9efe", 
 To : email.value, 
 From : "rupeshrauniyar80@gmail.com", 
 Subject : "Email OTP", 
