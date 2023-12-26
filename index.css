@@ -50,6 +50,17 @@ background-color: goldenrod;
 margin-top: -5px;
 border: 2px solid white;
 }
+@media(min-width:435px){
+input{
+width: 380px;
+}
+button{
+margin-left:15px ;
+}
+#otp_inp{
+width:380px;
+}
+}
 @media(min-width:768px){
 input{
 width: 700px;
@@ -59,6 +70,17 @@ margin-left:180px ;
 }
 #otp_inp{
 width: 700px;
+}
+}
+@media(min-width:900px){
+input{
+width: 800px;
+}
+button{
+margin-left:140px ;
+}
+#otp_inp{
+width: 800px;
 }
 }
 @media(min-width:1024px){
@@ -89,6 +111,78 @@ font-size: 30px;
 width: 1050px;
 height: 70px;
 font-size: 30px;
+}
+}
+@media(min-width:1340px){
+input{
+width: 1250px;
+height: 70px;
+font-size: 30px;
+}
+button{
+margin-left:180px ;
+width: 850px;
+height: 100px;
+font-size: 30px;
+}
+#otp_inp{
+width: 1250px;
+height: 70px;
+font-size: 30px;
+}
+}
+@media(min-width:1540px){
+input{
+width: 1450px;
+height: 80px;
+font-size: 40px;
+}
+button{
+margin-left:180px ;
+width: 950px;
+height: 100px;
+font-size: 40px;
+}
+#otp_inp{
+width: 1450px;
+height: 80px;
+font-size: 40px;
+}
+}
+@media(min-width:1840px){
+input{
+width: 1650px;
+height: 80px;
+font-size: 40px;
+}
+button{
+margin-left:180px ;
+width: 950px;
+height: 100px;
+font-size: 40px;
+}
+#otp_inp{
+width: 1650px;
+height: 80px;
+font-size: 40px;
+}
+}
+@media(min-width:1840px){
+input{
+width: 1750px;
+height: 80px;
+font-size: 40px;
+}
+button{
+margin-left:180px ;
+width: 950px;
+height: 100px;
+font-size: 40px;
+}
+#otp_inp{
+width: 1750px;
+height: 80px;
+font-size: 40px;
 }
 }
 @media(min-width:2560px){
