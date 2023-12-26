@@ -1,3 +1,51 @@
+*{
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+body{
+align-items: center;
+position: relative;
+background-color: #dadada;
+}
 .otpverify{
 display: none;
 }
+form{
+background-color: white;
+box-shadow: 0 4px 8px 0;
+margin-top: 75%;
+}
+h1{
+color: goldenrod;
+text-transform: uppercase;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+}
+input{
+width: 380px;
+font-size: 20px;
+height: 30px;
+margin-left: 20px;
+}
+button{
+margin-bottom: 20px;
+width: 375px;
+border-radius:8px ;
+margin-top: 20px;
+height: 30px;
+margin-left: 25px;
+}
+.otpverify input{
+width: 380px;
+font-size: 20px;
+height: 30px;
+margin-left: 20px;
+}
+.btn1{
+background-color: #90ff55;
+border: 2px solid white;
+}
+.btn2{
+background-color: goldenrod;
+margin-top: -5px;
+border: 2px solid white;

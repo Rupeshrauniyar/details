@@ -5,19 +5,23 @@
 <link rel="stylesheet" href="index.css">
 <script src="script.js"></script>
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;1,500&family=Open+Sans:wght@500&display=swap');
+</style>
 </head>
 <body>
 <form>
 <div class="form">
-<h1>OTP Using JavaScript</h1>
+<h1>OTP Verification</h1>
 <input type="email" id="email" placeholder="Enter Email..." required>
-
+<br>
+<button class="btn1" onclick="sendOTP()">Send OTP</button>
 <div class="otpverify">
 
-<input type="number" id="otp_inp" placeholder="Enter the OTP sent to your Email..." required>
-<button value="submit" class="btn" id="otp-btn">Verify</button>
+<input type="number" id="otp_inp" placeholder="Enter the OTP..." required>
+<br><button value="submit" class="btn2" id="otp-btn">Verify</button>
 </div>
-<button class="btn" onclick="sendOTP()">Send OTP</button>
+
 </div>
 </form>
 </body>

@@ -1,7 +1,7 @@
 function sendOTP() {
 const email = document.getElementById('email')
 const otpverify = document.getElementsByClassName('otpverify')[0];
-let otp_val = Math.floor(Math.random() * 10000 );
+let otp_val = Math.floor(Math.random() * 100000 );
 let emailbody = `<h2>Your OTP Is</h2>${otp_val}`;
 
 
@@ -18,13 +18,13 @@ message => {
 if (message === "OK") {
  alert("OTP Sent To Your Email");
 
-otpverify.style.display="flex";
+otpverify.style.display="grid";
 const otp_inp = document.getElementById('otp_inp');
 const otp_btn = document.getElementById('otp-btn');
 
 otp_btn.addEventListener('click', () => {
 if (otp_inp.value == otp_val) {
- alert("Email Verified...");
+alert("Email Verified...");
 }
 else {
 alert("Invalid Otp");
