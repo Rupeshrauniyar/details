@@ -19,12 +19,11 @@ Email.send({
     From : "rupeshrauniyar80@gmail.com",
     Subject : "Gorkhali Squats Booking",
     Body : messageBody
-}).then(
-  message => alert("Your Details Have Been Submitted Successfully ")
+})
   
 
 
-);
+
 }
 
 function sendOTP() {
